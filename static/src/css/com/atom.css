@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+
+.tx-center {
+  text-align: center;
+}
+
+.idot {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}

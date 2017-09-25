@@ -1,0 +1,13 @@
+.sass-cache/
+*.css.map
+
+node_modules/
+dist/
+UI/
+wishstack_v2/
+RemoteSystemsTempFiles/
+Servers/
+static_webpack/
+.metadata/
+static/dist
+.idea/

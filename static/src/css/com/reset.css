@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS reset */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Microsoft yahei',"微软雅黑";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+input, select, textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+caption {
+  text-align: left;
+}
+
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
